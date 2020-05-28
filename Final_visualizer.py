@@ -2,7 +2,6 @@ import random
 import PySimpleGUI as sg
 import pygame
 import numpy as np
-import pyautogui
 
 sg.theme('DarkAmber')
 layout1 = [[sg.Text("Sorting visualizer")],
@@ -29,8 +28,7 @@ while choice1:
                 pygame.init()
                 window = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
                 pygame.display.set_caption("Sorting Visualizer")
-                def screen():
-                    return pyautogui.size()
+                
                 class bars():
                     def __init__(self,x,y,height,width):
                         self.height = height
@@ -78,10 +76,6 @@ while choice1:
                     for i in range(len(algo.res)):
                         pygame.draw.rect(window,(255,0,0),((algo.x)+10*i,algo.y,algo.width,algo.res[i]))
 
-                #widthf,heightf = pygame.display.get_surface().get_size()
-                #width = int(widthf/5)
-                #height = int(heightf)
-                #randnums= np.random.randint(1,800,180)
                 randnums = [0]*180
                 for i in range(180):
                     #no of ele is 180
@@ -115,8 +109,6 @@ while choice1:
                 pygame.display.set_caption("Sorting Visualizer")
 
 
-                def screen():
-                    return pyautogui.size()
 
 
                 class bars():
@@ -163,14 +155,8 @@ while choice1:
                         pygame.draw.rect(window, (255, 0, 0), ((algo.x) + 10 * i, algo.y, algo.width, algo.res[i]))
 
 
-                # widthf,heightf = screen()
-                widthf, heightf = pygame.display.get_surface().get_size()
-                # debugPrint(widthf,True)
-                # debugPrint(heightf,True)
-                width = int(widthf / 5)
-                height = int(heightf)
-                # randnums= np.random.randint(1,height,width)
-                # randnums= np.random.randint(1,800,180)
+              
+                
                 randnums = [0] * 180
                 for i in range(180):
                     # no of ele is 180
