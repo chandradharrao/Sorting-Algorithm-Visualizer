@@ -23,3 +23,8 @@ Screenshots:
 ![image](https://raw.githubusercontent.com/chandradharrao/Sorting-Algorithm-Visualizer/master/5.png)
 
 
+Gifs:
+
+![image](https://raw.githubusercontent.com/chandradharrao/Sorting-Algorithm-Visualizer/master/counting%20sort.gif)
+
+![image](https://raw.githubusercontent.com/chandradharrao/Sorting-Algorithm-Visualizer/master/insertion%20sort.gif)
