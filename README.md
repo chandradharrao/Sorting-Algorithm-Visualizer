@@ -10,6 +10,8 @@ There are two choices:
 2)Counting sort->counting sort
 
 Screenshots:
+
+
 ![image](https://raw.githubusercontent.com/chandradharrao/Sorting-Algorithm-Visualizer/master/1.png)
 
 ![image](https://raw.githubusercontent.com/chandradharrao/Sorting-Algorithm-Visualizer/master/2.png)
